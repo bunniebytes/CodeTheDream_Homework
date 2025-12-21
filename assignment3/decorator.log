@@ -1,0 +1,24 @@
+This is the start of the log
+The function name is hello
+This function takes no parameters
+This function has no return value
+The function name is positional_args
+This function's positional parameters are (1, 'hello', 3.14)
+This function has no return value
+The function name is keyword_args
+This function's keyword parameters are {'first': '1st', 'second': '2nd', 'last': 'last'}
+This function returns <function logger_decorator at 0x000001B2CC162F80>
+This is the end of the log
+
+This is the start of the log
+The function name is hello
+This function takes no parameters
+This function has no return value
+The function name is positional_args
+This function's positional parameters are (1, 'hello', 3.14)
+This function has no return value
+The function name is keyword_args
+This function's keyword parameters are {'first': '1st', 'second': '2nd', 'last': 'last'}
+This function returns <function logger_decorator at 0x0000021692F62F80>
+This is the end of the log
+
