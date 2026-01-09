@@ -1,0 +1,20 @@
+- Which sections of the website are restricted for crawling?
+Disallow: /w/
+Disallow: /api/
+Disallow: /trap/
+Disallow: /wiki/Special:
+Disallow: /wiki/Spezial:
+Disallow: /wiki/Spesial:
+Disallow: /wiki/Special%3A
+Disallow: /wiki/Spezial%3A
+Disallow: /wiki/Spesial%3A
+Also many of the Administration pages are restricted.  Some languages like Swedish wiki/users are restricted as well.
+
+- Are there specific rules for certain user agents?
+Some bots are just blocked.  You can tell by the Disallow: /
+Some bots have delays such as:
+User-agent: SemrushBot
+Crawl-delay: 5
+
+- Reflection:
+Websites use robots.txt to communicate to bots/automated scripts what is allowed on their site or not.  This promotes ethical scraping because someone without ill intent will consider the boundaries and rules put in place by the site owners.  This helps the site from being overloaded or private data from being scraped.
